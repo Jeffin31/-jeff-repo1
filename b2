@@ -1,0 +1,6 @@
+student@T26:~/jeff-repo1$ git branch b2
+student@T26:~/jeff-repo1$ git checkout b2
+Switched to branch 'b2'
+student@T26:~/jeff-repo1$ gedit b2
+
+
