@@ -1,0 +1,8 @@
+student@T26:~/jeff-repo1$ git checkout master
+Already on 'master'
+student@T26:~/jeff-repo1$ git branch b4
+student@T26:~/jeff-repo1$ git checkout b4
+Switched to branch 'b4'
+student@T26:~/jeff-repo1$ gedit b4file
+
+
