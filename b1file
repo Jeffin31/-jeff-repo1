@@ -1,0 +1,77 @@
+student@T26:~$ git config --global user.name"Jeffin31"
+student@T26:~$ git config --global user.email"jeffinjose@mca.ajce.in"
+student@T26:~$ git init jeff-repo1
+Initialized empty Git repository in /home/student/jeff-repo1/.git/
+student@T26:~$ cd jeff-repo1
+student@T26:~/jeff-repo1$ gedit
+
+(gedit:2663): Gtk-WARNING **: 14:20:44.336: Failed to measure available space: The specified location is not supported
+^[[A^C
+student@T26:~/jeff-repo1$ gedit new
+^Z
+[1]+  Stopped                 gedit new
+student@T26:~/jeff-repo1$ gedit new1
+^Z
+[2]+  Stopped                 gedit new1
+student@T26:~/jeff-repo1$ gedit new1
+^Z
+[3]+  Stopped                 gedit new1
+student@T26:~/jeff-repo1$ gedit nweeee
+^Z
+[4]+  Stopped                 gedit nweeee
+student@T26:~/jeff-repo1$ gedit new1
+^Z[1]   Killed                  gedit new
+
+[5]+  Stopped                 gedit new1
+student@T26:~/jeff-repo1$ git add --all
+student@T26:~/jeff-repo1$ git reset HEAD -- new1
+student@T26:~/jeff-repo1$ git commit -m "First Commit"
+[master (root-commit) 9073a10] First Commit
+ 2 files changed, 6 insertions(+)
+ create mode 100644 new
+ create mode 100644 newfile
+student@T26:~/jeff-repo1$ git remote add origin https://github.com/Jeffin31/jeff-repo1
+[5]+  Killed                  gedit new1
+student@T26:~/jeff-repo1$ git remote add origin https://github.com/Jeffin31/jeff-repo1
+fatal: remote origin already exists.
+student@T26:~/jeff-repo1$ git push origin master
+Username for 'https://github.com': Jeffin31
+Password for 'https://Jeffin31@github.com': 
+remote: Repository not found.
+fatal: repository 'https://github.com/Jeffin31/jeff-repo1/' not found
+student@T26:~/jeff-repo1$ git push origin master
+Username for 'https://github.com': Jeffin31
+Password for 'https://Jeffin31@github.com': 
+remote: Repository not found.
+fatal: repository 'https://github.com/Jeffin31/jeff-repo1/' not found
+student@T26:~/jeff-repo1$ git remote add origin https://github.com/Jeffin31/-jeff-repo1.git
+fatal: remote origin already exists.
+student@T26:~/jeff-repo1$ git push origin master
+Username for 'https://github.com': Jeffin31
+Password for 'https://Jeffin31@github.com': 
+remote: Repository not found.
+fatal: repository 'https://github.com/Jeffin31/jeff-repo1/' not found
+student@T26:~/jeff-repo1$ git push origin master
+Username for 'https://github.com': Jeffin31
+Password for 'https://Jeffin31@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 437 bytes | 437.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Jeffin31/jeff-repo1
+ * [new branch]      master -> master
+student@T26:~/jeff-repo1$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	new1
+
+nothing added to commit but untracked files present (use "git add" to track)
+student@T26:~/jeff-repo1$ git branch b1
+student@T26:~/jeff-repo1$ git checkout b1
+Switched to branch 'b1'
+student@T26:~/jeff-repo1$ gedit b1file
+
