@@ -1,0 +1,25 @@
+student@T26:~/jeff-repo1$ git merge b1
+Already up to date.
+student@T26:~/jeff-repo1$ git push origin b2
+Username for 'https://github.com': Jeffin31
+Password for 'https://Jeffin31@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 391 bytes | 391.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote: 
+
+student@T26:~/jeff-repo1$ git push origin master
+Username for 'https://github.com': Jeffin31
+Password for 'https://Jeffin31@github.com': 
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/Jeffin31/jeff-repo1
+   9073a10..a53f73a  master -> master
+student@T26:~/jeff-repo1$ git branch
+  b1
+  b2
+* master
+student@T26:~/jeff-repo1$ git  branch b3
+student@T26:~/jeff-repo1$ gedit b3
+
